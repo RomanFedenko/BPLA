@@ -35,6 +35,8 @@
 
 **Диаграмма классов:**
 
+![](https://github.com/RomanFedenko/JSRPO/blob/main/Documents/Image/photo_2024-03-25_17-31-11.jpg)
+
 В БПЛА имеются поля:
 - id,
 - name,
