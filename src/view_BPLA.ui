@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>879</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color:rgb(245,245,245);</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QTableWidget" name="tableWidget">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>10</y>
+      <width>861</width>
+      <height>541</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QTableWidget::setStyle(&quot;fusion&quot;);</string>
+    </property>
+    <attribute name="horizontalHeaderDefaultSectionSize">
+     <number>195</number>
+    </attribute>
+    <attribute name="horizontalHeaderMinimumSectionSize">
+     <number>195</number>
+    </attribute>
+    <row>
+     <property name="text">
+      <string>New Row</string>
+     </property>
+    </row>
+    <column>
+     <property name="text">
+      <string>Идентификатор</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Название</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Модель</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Заводской номер</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Максимальная скорость, км/ч</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Максимальное время полета</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Максимальная дистанция</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Вес,кг</string>
+     </property>
+    </column>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>879</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menu">
+    <property name="title">
+     <string>Файл</string>
+    </property>
+   </widget>
+   <addaction name="menu"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

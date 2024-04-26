@@ -1,0 +1,31 @@
+DROP TABLE IF EXISTS BPLA CASCADE;
+DROP TABLE IF EXISTS POLET CASCADE;
+
+CREATE TABLE IF NOT EXISTS BPLA(
+	uniq_id SERIAL PRIMARY KEY,
+	name_bpla text NOT NULL,
+	model_bpla text NOT NULL UNIQUE,
+	mac_number_bpla integer NOT NULL,
+	max_speed double precision NOT NULL,
+	max_flight_time double precision NOT NULL,
+	max_flight_dist double precision NOT NULL,
+	weight double precision NOT NULL
+);
+
+CREATE TABLE IF NOT EXISTS POLET(
+	uniq_id SERIAL PRIMARY KEY,
+	uniq_id_bpla integer NOT NULL,
+	flight_time double precision NOT NULL,
+	flight_dist double precision NOT NULL,
+	flight_height double precision NOT NULL,
+	task_kol_complete integer NOT NULL,
+	faulty_bpla boolean NOT NULL,
+	fuel_spent_on_flight double precision NOT NULL
+);
+
+
+
+ALTER TABLE POLET
+	ADD CONSTRAINT fk_bpla FOREIGN KEY (uniq_id_bpla)
+REFERENCES BPLA(uniq_id);
+
