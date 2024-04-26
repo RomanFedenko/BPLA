@@ -18,6 +18,7 @@ class Auntification(QMainWindow):
         self.pushButtonMake.clicked.connect(show_main)
         self.pushButtonSpravka.clicked.connect(show_spravka)
         self.pushButtonEN.clicked.connect(self.change_on_en)
+        self.pushButtonRU.clicked.connect(self.change_on_ru)
 
     def change_on_en(self):
         self.labelSozdat.setText("Create your account")
@@ -25,6 +26,13 @@ class Auntification(QMainWindow):
         self.pushButtonMake.setText("Make")
         self.label_2Name.setText("Name")
         self.label_3Password.setText("Password")
+
+    def change_on_ru(self):
+        self.labelSozdat.setText("Создать ваш аккаунт")
+        self.pushButtonSpravka.setText("Справка")
+        self.pushButtonMake.setText("Создать")
+        self.label_2Name.setText("Имя")
+        self.label_3Password.setText("Пароль")
 
 class Spravka(QMainWindow):
     def __init__(self):
