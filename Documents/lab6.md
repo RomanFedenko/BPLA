@@ -26,24 +26,24 @@
 
 До:
 
-[](1)
+[](https://github.com/RomanFedenko/JSRPO/blob/main/Documents/Image/1.png)
 
 После:
 
-[](2)
+[](https://github.com/RomanFedenko/JSRPO/blob/main/Documents/Image/2.png)
 
-[](3)
+[](https://github.com/RomanFedenko/JSRPO/blob/main/Documents/Image/3.png)
 
 2. **Добавление контрастности**.
 С помощью радиальной заливки и изменения ее тона была повышена контрастность на 37% (доказано прохождением тестов), так же этого удалось добиться с помощью увеличения размера текста для его лучшей читабельности.
 
 До:
 
-[](4)
+[](https://github.com/RomanFedenko/JSRPO/blob/main/Documents/Image/4.png)
 
 После:
 
-[](5)
+[](https://github.com/RomanFedenko/JSRPO/blob/main/Documents/Image/5.png)
 
 
 3. **Добавление справочной информации**.
@@ -51,10 +51,10 @@
 
 До:
 
-[](6)
+[](https://github.com/RomanFedenko/JSRPO/blob/main/Documents/Image/6.png)
 
 После:
 
-[](7)
+[](https://github.com/RomanFedenko/JSRPO/blob/main/Documents/Image/7.png)
 
-[](8)
+[](https://github.com/RomanFedenko/JSRPO/blob/main/Documents/Image/8.png)
