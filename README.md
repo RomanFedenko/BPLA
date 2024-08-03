@@ -1,0 +1,5 @@
+Used:
+- PostgreSQL
+- Python
+- PyQt
+  
